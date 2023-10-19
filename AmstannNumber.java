@@ -1,9 +1,9 @@
 package basicprograms;
 
-public class Primenumbers {
+public class AmstannNumber {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 	}
 

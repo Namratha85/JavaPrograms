@@ -1,9 +1,11 @@
 package basicprograms;
 
-public class Primenumbers {
+public class Demo4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		float a=678.1007f;
+		System.out.println(a);
+				
 
 	}
 

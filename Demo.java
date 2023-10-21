@@ -1,21 +1,22 @@
-package encapusulation;
-// this will give security
-// encapsulation=wraping data+binding data
+package polymerphsim.edu;
+class Demo1 {
+	public void add() {
+		System.out.println("first method");
+	}
+	public void add(int a) {
+		System.out.println("2nd method");
+	}
+	public void add(float a) {
+		System.out.println("3rd method");
+	}
+}
 public class Demo {
-	private double balance;
-
-	public double getBalance() {
-		return balance;
-	}
-
-	public void setBalance(double balance) {
-		this.balance = balance;
-	}
 
 	public static void main(String[] args) {
-		Demo ob=new Demo();
-		ob.setBalance(300000);
-		System.out.println(ob.getBalance());
+		Demo1 ob=new Demo1();
+		ob.add();
+		ob.add(20);
+		ob.add();
 
 	}
 
